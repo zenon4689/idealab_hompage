@@ -68,14 +68,12 @@ user_groups:
   - Advisor
 ---
 
-Tae Hee Han (한태희), Ph.D., Professor, Sungkyunkwan University
-Program Manager in Computer System & Processing, National Research Foundation of Korea
-
-Department of Semiconductor Systems Engineering
-Department of Semiconductor and Display Engineering
-Department of Artificial Intelligence
-
-Office: Semiconductor Building, Room No.400528
-Phone: +82-31-299-4587
-Fax: +82-31-299-4909
+Tae Hee Han (한태희), Ph.D., Professor, Sungkyunkwan University<br>
+Program Manager in Computer System & Processing, National Research Foundation of Korea<br><br>
+Department of Semiconductor Systems Engineering<br>
+Department of Semiconductor and Display Engineering<br>
+Department of Artificial Intelligence<br><br>
+Office: Semiconductor Building, Room No.400528<br>
+Phone: +82-31-299-4587<br>
+Fax: +82-31-299-4909<br>
 Email: than@skku.edu
