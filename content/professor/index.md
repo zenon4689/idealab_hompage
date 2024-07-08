@@ -69,5 +69,5 @@ user_groups:
 ---
 
 <div style="display: flex; align-items: center;">
-  <img src="path/to/avatar.jpg" alt="Tae Hee Han" style="width: 150px; margin-right: 20px;">
+  <img src="avatar.jpg" alt="Tae Hee Han" style="width: 150px; margin-right: 20px;">
 </div>
