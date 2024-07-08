@@ -7,16 +7,14 @@ main:
   - name: Tour
     url: tour
     weight: 10
-
   - name: Professor
     url: professor
     weight: 20
-
   - name: News
     url: post
     weight: 30
   - name: Members
-    url: members
+    url: people
     weight: 40
   - name: Events
     url: event
