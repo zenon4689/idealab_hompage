@@ -68,14 +68,78 @@ user_groups:
   - Advisor
 ---
 
-Tae Hee Han (한태희), Ph.D., Professor, Sungkyunkwan University
-Program Manager in Computer System & Processing, National Research Foundation of Korea
-
-Department of Semiconductor Systems Engineering
-Department of Semiconductor and Display Engineering
-Department of Artificial Intelligence
-
-Office: Semiconductor Building, Room No.400528
-Phone: +82-31-299-4587
-Fax: +82-31-299-4909
-Email: than@skku.edu
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tae Hee Han</title>
+    <style>
+        .container {
+            display: flex;
+            align-items: center;
+            margin: 20px;
+        }
+        .profile-pic {
+            max-width: 150px;
+            border-radius: 50%;
+            margin-right: 20px;
+        }
+        .info {
+            max-width: 600px;
+        }
+        .info h1 {
+            margin: 0;
+        }
+        .info h2 {
+            margin: 10px 0;
+            font-size: 1.2em;
+            color: gray;
+        }
+        .info .contact {
+            margin: 10px 0;
+        }
+        .info .contact div {
+            margin: 5px 0;
+        }
+        .info .interests, .info .education {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="avatar.jpg" alt="Tae Hee Han" class="profile-pic">
+        <div class="info">
+            <h1>Tae Hee Han</h1>
+            <h2>Professor of Artificial Intelligence, Sunkyunkwan University</h2>
+            <div class="contact">
+                <div>Program Manager in Computer System & Processing, National Research Foundation of Korea</div>
+                <div>Department of Semiconductor Systems Engineering</div>
+                <div>Department of Semiconductor and Display Engineering</div>
+                <div>Department of Artificial Intelligence</div>
+                <div>Office: Semiconductor Building, Room No.400528</div>
+                <div>Phone: +82-31-299-4587</div>
+                <div>Fax: +82-31-299-4909</div>
+                <div>Email: <a href="mailto:than@skku.edu">than@skku.edu</a></div>
+            </div>
+            <div class="interests">
+                <h3>Interests</h3>
+                <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Computational Linguistics</li>
+                    <li>Information Retrieval</li>
+                </ul>
+            </div>
+            <div class="education">
+                <h3>Education</h3>
+                <ul>
+                    <li>Ph.D., Dept. of EE, KAIST, 1999</li>
+                    <li>MS, Dept. of EE, KAIST, 1994</li>
+                    <li>BS, Dept. of EE, KAIST, 1992</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
