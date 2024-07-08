@@ -68,6 +68,3 @@ user_groups:
   - Advisor
 ---
 
-<div style="display: flex; align-items: center;">
-  <img src="avatar.jpg" alt="Tae Hee Han" style="width: 150px; margin-right: 20px;">
-</div>
