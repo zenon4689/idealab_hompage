@@ -7,7 +7,7 @@ first_name: Tae Hee
 last_name: Han
 
 # Username (this should match the folder name)
-authors:
+professor:
   - Tae Hee Han
 
 # Is this the primary user of the site?
