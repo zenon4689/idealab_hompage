@@ -70,17 +70,4 @@ user_groups:
 
 <div style="display: flex; align-items: center;">
   <img src="path/to/avatar.jpg" alt="Tae Hee Han" style="width: 150px; margin-right: 20px;">
-  <div>
-    Tae Hee Han (한태희), Ph.D., Professor, Sungkyunkwan University<br>
-    Program Manager in Computer System & Processing, National Research Foundation of Korea<br><br>
-
-    Department of Semiconductor Systems Engineering<br>
-    Department of Semiconductor and Display Engineering<br>
-    Department of Artificial Intelligence<br><br>
-
-    Office: Semiconductor Building, Room No.400528<br>
-    Phone: +82-31-299-4587<br>
-    Fax: +82-31-299-4909<br>
-    Email: than@skku.edu
-  </div>
 </div>
