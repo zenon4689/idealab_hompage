@@ -36,15 +36,6 @@ sections:
           .centered-text {
             text-align: center;
           }
-          .image-grid {
-            display: flex;
-            justify-content: center;
-            gap: 100px;
-          }
-          .image-grid img {
-            width: 400px; /* 원하는 크기로 설정 */
-            height: auto;
-          }
         </style>
 
         <div class="centered-text">
@@ -56,17 +47,46 @@ sections:
         </div>
 
 
-
-        <div class="image-grid">
-          <img src="image1.jpg" alt="Image 1 Caption">
-          <img src="image2.jpg" alt="Image 2 Caption">
-          <img src="image3.png" alt="Image 3 Caption">
-          <img src="image4.png" alt="Image 4 Caption">
-        </div>
         <br>
         {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
     design:
       columns: '1'
+
+  - block: markdown
+    content:
+      title: 
+      subtitle: 
+      text: |
+        <style>
+          .centered-text {
+            text-align: center;
+          }
+          .image-grid {
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+          }
+          .image-grid img {
+            width: 300px; /* 원하는 크기로 설정 */
+            height: auto;
+          }
+        </style>
+
+        <div class="centered-text">
+          <h2><b>Research Area</b></h2>
+        </div>
+
+        <div class="image-grid">
+          <img src="image1.jpg" alt="Image 1 Caption">
+          <img src="image2.jpg" alt="Image 2 Caption">
+          <img src="image3.jpg" alt="Image 3 Caption">
+          <img src="image4.jpg" alt="Image 4 Caption">
+        </div>
+    design:
+      columns: '1'
+
+
+      
   
   - block: collection
     content:
