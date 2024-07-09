@@ -70,12 +70,12 @@ sections:
             text-align: center;
           }
           .image-grid img {
-            width: 400px; /* 원하는 크기로 설정 */
+            width: 600px; /* 원하는 크기로 설정 */
             height: auto;
           }
           .image-grid figcaption {
             margin-top: 10px;
-            font-size: 14px;
+            font-size: 30px;
             color: #666;
           }
 
