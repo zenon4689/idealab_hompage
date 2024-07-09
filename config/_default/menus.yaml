@@ -24,12 +24,12 @@ main:
 
   - name : PhDCandidates
     parent : people2
-    url : PhDCandidates  #드롭다운 메뉴 
+    url : people/phdcandidates  #드롭다운 메뉴 
     weight : 20
 
   - name : MSCandidates
     parent : people2
-    url : /mastercandidates  #드롭다운 메뉴 
+    url : people/mastercandidates  #드롭다운 메뉴 
     weight : 30
   - name : Alumni
     parent : people2
