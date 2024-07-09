@@ -19,11 +19,11 @@ sections:
             brightness: 1
           parallax: false
           position: center
-          size: 50% # 크기를 50%로 조정
+          size: auto 100%  # 이미지 높이는 자동, 너비는 100%로 설정
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
-      css_class: fullscreen
+        padding: ['5px', '0', '5px', '0']
+      css_class: banner-style
 
 
   - block: hero
