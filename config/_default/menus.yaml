@@ -26,9 +26,10 @@ main:
     parent : people2
     url : PhDCandidates  #드롭다운 메뉴 
     weight : 20
+
   - name : MSCandidates
     parent : people2
-    url : MasterCandidates  #드롭다운 메뉴 
+    url : /#MasterCandidates  #드롭다운 메뉴 
     weight : 30
   - name : Alumni
     parent : people2
