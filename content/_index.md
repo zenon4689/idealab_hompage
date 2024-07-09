@@ -22,7 +22,7 @@ sections:
           size: contain # cover 대신 contain으로 변경하여 이미지 크기를 조정
           text_color_light: true
       spacing:
-        padding: ['5px', '0', '5px', '0']
+        padding: ['5px', '5px', '5px', '5px']
       css_class: fullscreen
 
 
@@ -70,7 +70,7 @@ sections:
             text-align: center;
           }
           .image-grid img {
-            width: 600px; /* 원하는 크기로 설정 */
+            width: 800px; /* 원하는 크기로 설정 */
             height: auto;
           }
           .image-grid figcaption {
@@ -113,7 +113,7 @@ sections:
   
   - block: collection
     content:
-      title: Latest News
+      title: News
       subtitle:
       text:
       count: 5
@@ -144,12 +144,4 @@ sections:
       view: citation
       columns: '1'
 
-  - block: markdown
-    content:
-      title:
-      subtitle:
-      text: |
-        {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
-    design:
-      columns: '1'
 ---

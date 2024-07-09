@@ -13,12 +13,21 @@ main:
   - name: people
     url: people
     weight: 40
+  - name : pepople2
+    identifier : people2
+    weight : 50
+
+  - name : Advisor
+    parent : people2
+    url : author/tae-hee-han  #드롭다운 메뉴 
+    weight : 10
+  
   - name: Events
     url: event
-    weight: 50
+    weight: 60
   - name: Publications
     url: publication
-    weight: 60
+    weight: 70
   - name: Contact
     url: contact
-    weight: 70
+    weight: 80
