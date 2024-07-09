@@ -21,7 +21,19 @@ main:
     parent : people2
     url : author/tae-hee-han  #드롭다운 메뉴 
     weight : 10
-  
+  - name : Ph.D Candidates
+    parent : people2
+    url : author/tae-hee-han  #드롭다운 메뉴 
+    weight : 20
+  - name : MS Candidates
+    parent : people2
+    url : author/tae-hee-han  #드롭다운 메뉴 
+    weight : 30
+  - name : Advisor
+    parent : Alumni
+    url : author/tae-hee-han  #드롭다운 메뉴 
+    weight : 40
+
   - name: Events
     url: event
     weight: 60
