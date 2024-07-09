@@ -66,6 +66,17 @@ email: ''
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
   - Advisor
+
+
+- block: markdown
+  content:
+    title: Welcome to INTELLIGENT DATA-CENTRIC EMERGING ARCHITECTURE LAB(IDEA.L) at SKKU.
+    subtitle: 
+    text: |
+              test
+  design:
+    columns: '1'
+
 ---
 
 Tae Hee Han (한태희), Ph.D., Professor, Sungkyunkwan University<br>
@@ -79,3 +90,7 @@ Office: Semiconductor Building, Room No.400528<br>
 Phone: +82-31-299-4587<br>
 Fax: +82-31-299-4909<br>
 Email: than@skku.edu
+
+
+
+
