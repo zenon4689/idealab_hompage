@@ -64,23 +64,46 @@ sections:
           .image-grid {
             display: flex;
             justify-content: center;
-            gap: 100px;
+            gap: 50px;
+          }
+          .image-grid figure {
+            text-align: center;
           }
           .image-grid img {
-            width: 300px; /* 원하는 크기로 설정 */
+            width: 400px; /* 원하는 크기로 설정 */
             height: auto;
           }
+          .image-grid figcaption {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+          }
+
         </style>
 
         <div class="centered-text">
           <h2><b>Research Area</b></h2>
         </div>
+        <br>
+
 
         <div class="image-grid">
-          <img src="image1.jpg" alt="Image 1 Caption">
-          <img src="image2.jpg" alt="Image 2 Caption">
-          <img src="image3.jpg" alt="Image 3 Caption">
-          <img src="image4.jpg" alt="Image 4 Caption">
+          <figure>
+            <img src="image1.jpg" alt="Image 1 Caption">
+            <figcaption><b>AI Acceleration</b></figcaption>
+          </figure>
+          <figure>
+            <img src="image2.jpg" alt="Image 2 Caption">
+            <figcaption><b>SoC On-Chip Network</b></figcaption>
+          </figure>
+          <figure>
+            <img src="image3.jpg" alt="Image 3 Caption">
+            <figcaption><b>Near Data Processing</b></figcaption>
+          </figure>
+          <figure>
+            <img src="image4.jpg" alt="Image 4 Caption">
+            <figcaption><b>Next Generation Memory</b></figcaption>
+          </figure>
         </div>
     design:
       columns: '1'
