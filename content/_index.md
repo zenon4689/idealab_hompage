@@ -45,7 +45,7 @@ sections:
 
         The IDEA lab is investigating various hardware and software challenges related to System-on-Chip (SoC) <br>architecture and design technology implemented as semiconductor chips. We have recently focused on <br>system-level research in intelligent data-driven computing architectures to address memory and storage <br>data bottlenecks caused by big data and artificial intelligence applications, as well as next-generation <br>on-chip interconnects including optical links.
         </div>
-
+        <br>
         {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
     design:
       columns: '1'
@@ -68,6 +68,24 @@ sections:
     design:
       view: card
       columns: '1'
+
+  - block: images
+    content:
+      images:
+        - image: image1.png
+          caption: Image 1 Caption
+        - image: image2.png
+          caption: Image 2 Caption
+        - image: image3.png
+          caption: Image 3 Caption
+        - image: image4.png
+          caption: Image 4 Caption
+    design:
+      columns: '4'
+      spacing:
+        padding: ['10px', '10px', '10px', '10px']
+
+        
   
 
   - block: collection
