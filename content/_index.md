@@ -39,10 +39,10 @@ sections:
           .image-grid {
             display: flex;
             justify-content: center;
-            gap: 10px;
+            gap: 100px;
           }
           .image-grid img {
-            width: 100px; /* 원하는 크기로 설정 */
+            width: 400px; /* 원하는 크기로 설정 */
             height: auto;
           }
         </style>
@@ -55,9 +55,11 @@ sections:
         The IDEA lab is investigating various hardware and software challenges related to System-on-Chip (SoC) <br>architecture and design technology implemented as semiconductor chips. We have recently focused on <br>system-level research in intelligent data-driven computing architectures to address memory and storage <br>data bottlenecks caused by big data and artificial intelligence applications, as well as next-generation <br>on-chip interconnects including optical links.
         </div>
 
+
+
         <div class="image-grid">
-          <img src="image1.png" alt="Image 1 Caption">
-          <img src="image2.png" alt="Image 2 Caption">
+          <img src="image1.jpg" alt="Image 1 Caption">
+          <img src="image2.jpg" alt="Image 2 Caption">
           <img src="image3.png" alt="Image 3 Caption">
           <img src="image4.png" alt="Image 4 Caption">
         </div>
