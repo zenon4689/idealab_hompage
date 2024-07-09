@@ -22,7 +22,7 @@ sections:
           size: contain # cover 대신 contain으로 변경하여 이미지 크기를 조정
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['10px', '0', '10px', '0']
       css_class: fullscreen
 
 
