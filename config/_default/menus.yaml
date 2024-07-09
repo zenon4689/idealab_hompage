@@ -5,7 +5,7 @@
 
 main:
   - name: Professor
-    url: professor
+    url: author/tae-hee-han
     weight: 20
   - name: News
     url: post
