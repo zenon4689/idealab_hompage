@@ -24,16 +24,16 @@ main:
 
   - name : PhDCandidates
     parent : people2
-    url : people/phdcandidates  #드롭다운 메뉴 
+    url : phdcandidates  #드롭다운 메뉴 
     weight : 20
 
   - name : MSCandidates
     parent : people2
-    url : people/mastercandidates  #드롭다운 메뉴 
+    url : mastercandidates  #드롭다운 메뉴 
     weight : 30
   - name : Alumni
     parent : people2
-    url : author/tae-hee-han  #드롭다운 메뉴 
+    url : alumni  #드롭다운 메뉴 
     weight : 40
 
   - name: Events
