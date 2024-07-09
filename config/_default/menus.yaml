@@ -24,11 +24,11 @@ main:
 
   - name : Ph.D Candidates
     parent : people2
-    url : people/Ph.d Candidates  #드롭다운 메뉴 
+    url : Ph.d Candidates  #드롭다운 메뉴 
     weight : 20
   - name : MS Candidates
     parent : people2
-    url : people/MS Candidates  #드롭다운 메뉴 
+    url : MS Candidates  #드롭다운 메뉴 
     weight : 30
   - name : Alumni
     parent : people2
