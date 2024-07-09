@@ -21,14 +21,14 @@ main:
     parent : people2
     url : author/tae-hee-han  #드롭다운 메뉴 
     weight : 10
-    
+
   - name : Ph.D Candidates
     parent : people2
-    url : author/tae-hee-han  #드롭다운 메뉴 
+    url : people/Ph.d Candidates  #드롭다운 메뉴 
     weight : 20
   - name : MS Candidates
     parent : people2
-    url : author/tae-hee-han  #드롭다운 메뉴 
+    url : people/MS Candidates  #드롭다운 메뉴 
     weight : 30
   - name : Alumni
     parent : people2

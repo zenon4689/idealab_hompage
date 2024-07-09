@@ -7,11 +7,11 @@ type: landing
 sections:
   - block: people
     content:
-      title: MS Candidates
+      title: Ph.D Candidates
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - MS Candidates
+          - Ph.D Candidates
       sort_by: Params.last_name
       sort_ascending: true
     design:
