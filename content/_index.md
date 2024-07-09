@@ -19,7 +19,7 @@ sections:
             brightness: 1
           parallax: false
           position: center
-          size: cover
+          size: 50% # 크기를 50%로 조정
           text_color_light: true
       spacing:
         padding: ['20px', '0', '20px', '0']
