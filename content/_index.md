@@ -14,7 +14,7 @@ sections:
       columns: '1'
       background:
         image: 
-          filename: semi.jpg
+          filename: semi2.png
           filters:
             brightness: 1
           parallax: false
