@@ -6,7 +6,7 @@ title: Hui Ze Hong
 first_name: Hui Ze
 last_name: Hong
 
-# Username (this should match the folder name)
+# Username (this should match the folder namtye)
 authors:
   - Hui Ze Hong
 
