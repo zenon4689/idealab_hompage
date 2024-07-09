@@ -70,7 +70,7 @@ sections:
             text-align: center;
           }
           .image-grid img {
-            width: 800px; /* 원하는 크기로 설정 */
+            width: 1000px; /* 원하는 크기로 설정 */
             height: auto;
           }
           .image-grid figcaption {
@@ -130,7 +130,7 @@ sections:
       view: card
       columns: '1'
 
-
+##
   - block: collection
     content:
       title: Latest Preprints

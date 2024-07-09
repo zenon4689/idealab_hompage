@@ -10,38 +10,33 @@ main:
   - name: News
     url: post
     weight: 30
-  - name: people
-    url: people
-    weight: 40
-  - name : pepople2
-    identifier : people2
-    weight : 50
 
+  - name : people
+    identifier : people
+    weight : 40
   - name : Advisor
-    parent : people2
+    parent : people
     url : author/tae-hee-han  #드롭다운 메뉴 
     weight : 10
-
   - name : PhDCandidates
-    parent : people2
+    parent : people
     url : phdcandidates  #드롭다운 메뉴 
     weight : 20
-
   - name : MSCandidates
-    parent : people2
+    parent : people
     url : mastercandidates  #드롭다운 메뉴 
     weight : 30
   - name : Alumni
-    parent : people2
+    parent : people
     url : alumni  #드롭다운 메뉴 
     weight : 40
 
   - name: Events
     url: event
-    weight: 60
+    weight: 50
   - name: Publications
     url: publication
-    weight: 70
+    weight: 60
   - name: Contact
     url: contact
-    weight: 80
+    weight: 70
