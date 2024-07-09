@@ -1,20 +1,20 @@
 ---
 # Display name
-title: Hui Ze Hong
+title: Jeong Hun Kim
 
 # Full name (for SEO)
-first_name: Hui Ze
-last_name: Hong
+first_name: Jeong Hun
+last_name: Kim
 
 # Username (this should match the folder name)
 authors:
-  - Hui Ze Hong
+  - Jeong Hun Kim
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position
-role: Combined MS-PhD student
+role: Ph.D Candidates
 
 # Organizations/Affiliations
 organizations:
@@ -65,8 +65,8 @@ email: ''
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-  - Master Candidates 
+  - Ph.D Candidates
 ---
 
-Hui ze Hong
+
 
