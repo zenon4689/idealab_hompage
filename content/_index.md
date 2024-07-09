@@ -22,7 +22,7 @@ sections:
           size: contain # cover 대신 contain으로 변경하여 이미지 크기를 조정
           text_color_light: true
       spacing:
-        padding: ['10px', '0', '10px', '0']
+        padding: ['5px', '0', '5px', '0']
       css_class: fullscreen
 
 
@@ -45,6 +45,8 @@ sections:
 
         The IDEA lab is investigating various hardware and software challenges related to System-on-Chip (SoC) <br>architecture and design technology implemented as semiconductor chips. We have recently focused on <br>system-level research in intelligent data-driven computing architectures to address memory and storage <br>data bottlenecks caused by big data and artificial intelligence applications, as well as next-generation <br>on-chip interconnects including optical links.
         </div>
+
+        {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
     design:
       columns: '1'
   
