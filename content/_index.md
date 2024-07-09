@@ -36,6 +36,15 @@ sections:
           .centered-text {
             text-align: center;
           }
+          .image-grid {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+          }
+          .image-grid img {
+            width: 100px; /* 원하는 크기로 설정 */
+            height: auto;
+          }
         </style>
 
         <div class="centered-text">
@@ -44,6 +53,13 @@ sections:
         IDEA 연구실에서는 반도체 칩으로 구현되는 System-on-Chip (SoC) 아키텍처와 설계 기술에 관련된 하드웨어와 <br>소프트웨어에서의 다양한 문제들을 연구하고 있습니다. 최근 우리는 빅 데이터와 인공지능 어플리케이션에서 기인하는 <br>메모리 및 스토리지 데이터 병목현상을 해결하기 위한 지능형 데이터 중심 컴퓨팅 아키텍처, optical link를 포함하는 <br>차세대 온칩 인터커넥트 등의 분야에서 시스템 레벨 연구에 초점을 맞추고 있습니다.<br><br>
 
         The IDEA lab is investigating various hardware and software challenges related to System-on-Chip (SoC) <br>architecture and design technology implemented as semiconductor chips. We have recently focused on <br>system-level research in intelligent data-driven computing architectures to address memory and storage <br>data bottlenecks caused by big data and artificial intelligence applications, as well as next-generation <br>on-chip interconnects including optical links.
+        </div>
+
+        <div class="image-grid">
+          <img src="image1.png" alt="Image 1 Caption">
+          <img src="image2.png" alt="Image 2 Caption">
+          <img src="image3.png" alt="Image 3 Caption">
+          <img src="image4.png" alt="Image 4 Caption">
         </div>
         <br>
         {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
@@ -69,24 +85,6 @@ sections:
       view: card
       columns: '1'
 
-  - block: images
-    content:
-      images:
-        - image: image1.png
-          caption: Image 1 Caption
-        - image: image2.png
-          caption: Image 2 Caption
-        - image: image3.png
-          caption: Image 3 Caption
-        - image: image4.png
-          caption: Image 4 Caption
-    design:
-      columns: '4'
-      spacing:
-        padding: ['10px', '10px', '10px', '10px']
-
-        
-  
 
   - block: collection
     content:
