@@ -155,43 +155,70 @@ sections:
               <div class="banner-item">
                   <p>(2024-02) <strong>Won Hyeok Kim</strong>'s paper is accepted by the ICAIIC.</p>
               </div>
+              <div class="banner-item">
+                  <p>(2024-02) Welcome! <strong>Woo Hyun Kim, Sung Ryong Yoo, and Min Jun Kim</strong> have joined our group as graduate students.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2023-12) <strong>Ho Jung Yoo</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2023-11) <strong>Ju Yeon Kang</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2023-08) Welcome! <strong>Hyung Jin Kim and Ji Hun Choi</strong> have joined our group as graduate students.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2023-02) Welcome! <strong>Han Sol Kim and Won Hyeok Kim</strong> have joined our group as graduate students.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2023-01) <strong>Ju Yeon Kang</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2023-01) <strong>Jae Eun Shim</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-12) <strong>Hyun Jo Lim</strong>'s paper is accepted by the MDPI Electronics.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-10) <strong>Young Sik Lee</strong>'s paper is accepted by the IEEE Transactions on Parallel and Distributed Systems (TPDS).</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-09) <strong>Prof. Tae Hee Han</strong> has been elevated to the senior member of the IEEE.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-08) Welcome! <strong>Suk Bong Kang and Hui Ze Hong</strong> have joined our group as graduate students.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-08) <strong>Sang Min Hyun</strong>'s paper is accepted by the MDPI Electronics.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-07) <strong>Min Gu Kang</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-05) <strong>Prof. Tae Hee Han</strong> is awarded the SKKU Teaching Award.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2022-02) Welcome! <strong>Chang Ho Ryu and Ho Jung Yoo</strong> have joined our group as graduate students.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2021-12) <strong>Min Chae Yang</strong> is accepted by the Samsung Electronics Memory business.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2021-12) <strong>Min Chae Yang</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2021-11) <strong>Prof. Tae Hee Han</strong> serves as the Program Manager in Computer System & Processing, National Research Foundation of Korea.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2021-08) <strong>Yong Wook Kim</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
+              <div class="banner-item">
+                  <p>(2021-05) <strong>Young Sik Lee</strong>'s paper is accepted by the IEEE Access.</p>
+              </div>
           </div>
         </body>
     design:
       columns: '1'
       
   
-  - block: collection
-    content:
-      title: News
-      subtitle:
-      text:
-      count: 5
-      filters:
-        author: ''
-        category: ''
-        exclude_featured: false
-        publication_type: ''
-        tag: ''
-      offset: 0
-      order: desc
-      page_type: post
-    design:
-      view: card
-      columns: '1'
-
-##
-  - block: collection
-    content:
-      title: Latest Preprints
-      text: ""
-      count: 5
-      filters:
-        folders:
-          - publication
-        publication_type: 'article'
-    design:
-      view: citation
-      columns: '1'
-
 ---
