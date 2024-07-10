@@ -37,7 +37,7 @@ sections:
 
         <div class="image-grid">
           <figure>
-            <img src="semi3.jpg" alt="Image 1 Caption">
+            <img src="semi3.png" alt="Image 1 Caption">
           </figure>
 
         </div>
