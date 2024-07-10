@@ -132,16 +132,39 @@ sections:
                 .banner {
                     display: flex;
                     flex-direction: column;
-                    width: 1200px; /* 배너의 너비를 늘립니다 */
+                    width: 1200px;
                     margin: 20px auto;
+                }
+                .year-divider {
+                    display: flex;
+                    align-items: center;
+                    margin: 20px 0;
+                }
+                .year-divider::before {
+                    content: "";
+                    flex-grow: 1;
+                    height: 1px;
+                    background: #000;
+                    margin-right: 10px;
+                }
+                .year-divider::after {
+                    content: "";
+                    flex-grow: 1;
+                    height: 1px;
+                    background: #000;
+                    margin-left: 10px;
+                }
+                .year {
+                    font-weight: bold;
+                    font-size: 1.5em;
                 }
                 .banner-item {
                     background-color: #f0f0f0;
-                    margin: 20px 0; /* 간격을 넓힙니다 */
-                    padding: 30px; /* 패딩을 늘립니다 */
+                    margin: 20px 0;
+                    padding: 30px;
                     border-radius: 10px;
                     transition: transform 0.3s;
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
                 }
                 .banner-item:hover {
                     transform: scale(1.05);
@@ -150,9 +173,11 @@ sections:
         </head>
         <body>
             <div class="banner">
+                <div class="year-divider"><span class="year">2024</span></div>
                 <div class="banner-item">
                     <p>(2024-02) Welcome! <strong>Woo Hyun Kim, Sung Ryong Yoo, and Min Jun Kim</strong> have joined our group as graduate students.</p>
                 </div>
+                <div class="year-divider"><span class="year">2023</span></div>
                 <div class="banner-item">
                     <p>(2023-12) <strong>Ho Jung Yoo</strong>'s paper is accepted by the IEEE Access.</p>
                 </div>
@@ -171,6 +196,7 @@ sections:
                 <div class="banner-item">
                     <p>(2023-01) <strong>Jae Eun Shim</strong>'s paper is accepted by the IEEE Access.</p>
                 </div>
+                <div class="year-divider"><span class="year">2022</span></div>
                 <div class="banner-item">
                     <p>(2022-12) <strong>Hyun Jo Lim</strong>'s paper is accepted by the MDPI Electronics.</p>
                 </div>
@@ -195,6 +221,7 @@ sections:
                 <div class="banner-item">
                     <p>(2022-02) Welcome! <strong>Chang Ho Ryu and Ho Jung Yoo</strong> have joined our group as graduate students.</p>
                 </div>
+                <div class="year-divider"><span class="year">2021</span></div>
                 <div class="banner-item">
                     <p>(2021-12) <strong>Min Chae Yang</strong> is accepted by the Samsung Electronics Memory business.</p>
                 </div>
