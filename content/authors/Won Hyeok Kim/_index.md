@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Hui Ze Hong
+title: Won Hyeok Kim
 
 # Full name (for SEO)
-first_name: Hui Ze
-last_name: Hong
+first_name: Won Hyeok
+last_name: Kim
 
 # Username (this should match the folder name)
 authors:
-  - Hui Ze Hong
+  - Won Hyeok Kim
 
 # Is this the primary user of the site?
 superuser: false
@@ -67,6 +67,4 @@ email: ''
 user_groups:
   - Master Candidates 
 ---
-
-Hui ze Hong
 
