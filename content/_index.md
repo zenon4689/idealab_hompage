@@ -8,31 +8,23 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: 
-      subtitle: 
-      text: |
-        <style>
-          body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-          }
-          .banner-container {
-            width: 100%;
-            overflow: hidden;
-          }
-          .banner-image {
-            width: 100%;
-            height: auto;
-          }
-        </style>
-
-        <div class="banner-container">
-          <img class="banner-image" src="semi3.png" alt="Banner Image">
-        </div>
+      title:
+      subtitle: ''
+      text:
     design:
-      slide_height : 100px
       columns: '1'
+      background:
+        image: 
+          filename: semi3.png
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: cover
+          text_color_light: true
+      spacing:
+        padding: ['20px', '0', '20px', '0']
+      css_class: fullscreen
 ##########################################################
 ################연구실 소개글##############################
 ##########################################################
