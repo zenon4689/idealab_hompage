@@ -4,6 +4,7 @@ title:
 date: 2022-10-24
 type: landing
 
+# 홈페이지 배너 부분
 sections:
   - block: markdown
     content:
@@ -27,9 +28,7 @@ sections:
     design:
       columns: '1'
 
-
-
-
+# 연구실 소개글
 
   - block: markdown
     content:
@@ -55,7 +54,7 @@ sections:
         {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
     design:
       columns: '1'
-
+#Research area 
   - block: markdown
     content:
       title: 
@@ -111,7 +110,7 @@ sections:
         </div>
     design:
       columns: '1'
-
+# 연구실 소식
   - block: markdown
     content: 
       title: Recent NEWS
@@ -129,13 +128,13 @@ sections:
               .banner {
                   display: flex;
                   flex-direction: column;
-                  width: 600px; /* 배너의 너비를 늘립니다 */
+                  width: 1200px; /* 배너의 너비를 늘립니다 */
                   margin: 20px auto;
               }
               .banner-item {
                   background-color: #f0f0f0;
-                  margin: 20px 0; /* 간격을 넓힙니다 */
-                  padding: 30px; /* 패딩을 늘립니다 */
+                  margin: 5px 0; /* 간격을 넓힙니다 */
+                  padding: 10px; /* 패딩을 늘립니다 */
                   border-radius: 10px;
                   transition: transform 0.3s;
                   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
