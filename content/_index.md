@@ -27,9 +27,9 @@ sections:
         </div>
     design:
       columns: '1'
-
-# 연구실 소개글
-
+##########################################################
+################연구실 소개글##############################
+##########################################################
   - block: markdown
     content:
       title: Welcome to INTELLIGENT DATA-CENTRIC EMERGING ARCHITECTURE LAB(IDEA.L) at SKKU.
@@ -54,7 +54,9 @@ sections:
         {{% cta cta_link="./contact/" cta_text="Contact us →" %}}
     design:
       columns: '1'
-#Research area 
+##########################################################
+################Research area#############################
+##########################################################
   - block: markdown
     content:
       title: 
@@ -110,7 +112,9 @@ sections:
         </div>
     design:
       columns: '1'
-# 연구실 소식
+##########################################################
+################연구실 소식################################
+##########################################################
   - block: markdown
     content: 
       title: Recent NEWS
@@ -146,7 +150,7 @@ sections:
                 .banner {
                     display: flex;
                     flex-direction: column;
-                    width: 600px;
+                    width: 1200px;   #배너 크기
                 }
                 .year-group {
                     margin-bottom: 20px;
@@ -165,13 +169,12 @@ sections:
             </style>
         </head>
         <body>
-            <h1 style="text-align: center;">Recent NEWS</h1>
             <div class="container">
                 <div class="timeline">
-                    <div class="timeline-item" style="height: 4 * (120px + 40px);">2024</div>
-                    <div class="timeline-item" style="height: 7 * (120px + 40px);">2023</div>
-                    <div class="timeline-item" style="height: 9 * (120px + 40px);">2022</div>
-                    <div class="timeline-item" style="height: 6 * (120px + 40px);">2021</div>
+                    <div class="timeline-item" style="height: 40 * (120px + 40px);">2024</div>
+                    <div class="timeline-item" style="height: 70 * (120px + 40px);">2023</div>
+                    <div class="timeline-item" style="height: 90 * (120px + 40px);">2022</div>
+                    <div class="timeline-item" style="height: 60 * (120px + 40px);">2021</div>
                 </div>
                 <div class="banner">
                     <div class="year-group">
