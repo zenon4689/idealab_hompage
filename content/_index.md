@@ -6,23 +6,14 @@ type: landing
 
 # 홈페이지 배너 부분
 sections:
-  - block: hero
+  - block: biography
     content:
-      title: Build Your Landing Pages with Hugo Blox
-      text: 🧱 IDEAL  🧱
     design:
-      spacing:
-        padding: [0, 0, 0, 0]
-        margin: [0, 0, 0, 0]
-      # For full-screen, add `min-h-screen` below
-      css_class: "dark"
-      background:
-        color: "navy"
-        image:
-          # Add your image background to `assets/media/`.
-          filename: semi3.png
-          filters:
-            brightness: 1
+      banner:
+        # Upload your cover image to the `assets/media/` folder and reference it here
+        filename: semi3.png
+
+
 ##########################################################
 ################연구실 소개글##############################
 ##########################################################
