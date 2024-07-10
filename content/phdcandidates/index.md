@@ -54,8 +54,8 @@ sections:
                     <img src="image2.png" alt="Yong Wook Kim">
                     <div class="profile-details">
                         <h3>Yong Wook Kim</h3>
-                        <p><strong>E-mail:</strong> coail@skku.edu<br>
-                        <strong>Department:</strong> Electrical and Computer Engineering</p>
+                        <p><strong>E-mail:</strong> coail@skku.edu</p>
+                        <p><strong>Department:</strong> Electrical and Computer Engineering</p>
                     </div>
                 </div>
                 <div class="profile-item">
