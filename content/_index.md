@@ -17,7 +17,7 @@ sections:
           }
           .banner-container {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 5px;
           }
         </style>
 
