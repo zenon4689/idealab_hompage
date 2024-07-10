@@ -133,7 +133,7 @@ sections:
                     display: flex;
                     flex-direction: column;
                     width: 1200px;
-                    margin: 20px auto;
+                    margin: 10px auto;
                 }
                 .year-divider {
                     display: flex;
@@ -160,7 +160,7 @@ sections:
                 }
                 .banner-item {
                     background-color: #f0f0f0;
-                    margin: 20px 0;
+                    margin: 10px 0;
                     padding: 30px;
                     border-radius: 10px;
                     transition: transform 0.3s;
