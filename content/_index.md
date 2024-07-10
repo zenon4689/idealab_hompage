@@ -113,8 +113,8 @@ sections:
       columns: '1'
 
   - block: markdown
-    content: Recent NEWS
-      title: 
+    content: 
+      title: Recent NEWS
       subtitle: 
       text: |
         <head>
