@@ -7,7 +7,7 @@ type: landing
 sections:
   - block: markdown
     content:
-      title: 
+      title: Ph.D Candidates
       subtitle: 
       text: |
         <head>
