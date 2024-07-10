@@ -175,6 +175,15 @@ sections:
             <div class="banner">
                 <div class="year-divider"><span class="year">2024</span></div>
                 <div class="banner-item">
+                    <p>(2024-04) <strong>Yong Wook Kim</strong>'s paper is accepted by the IEEE Access.</p>
+                </div>
+                <div class="banner-item">
+                    <p>(2024-03) <strong>Ho Jung Yoo</strong>'s paper is selected as the featured article in IEEE Access.</p>
+                </div>
+                <div class="banner-item">
+                    <p>(2024-02) <strong>Won Hyeok Kim</strong>'s paper is accepted by the ICAIIC.</p>
+                </div>
+                <div class="banner-item">
                     <p>(2024-02) Welcome! <strong>Woo Hyun Kim, Sung Ryong Yoo, and Min Jun Kim</strong> have joined our group as graduate students.</p>
                 </div>
                 <div class="year-divider"><span class="year">2023</span></div>
