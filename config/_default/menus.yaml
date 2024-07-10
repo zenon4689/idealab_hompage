@@ -7,8 +7,8 @@ main:
   - name: Professor
     url: author/tae-hee-han
     weight: 10
-  - name: News
-    url: post
+  - name: Research
+    url: research
     weight: 20
 
   - name : people
