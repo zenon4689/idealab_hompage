@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Hui Ze Hong
+title:  Min Jun Kim
 
 # Full name (for SEO)
-first_name: Hui Ze
-last_name: Hong
+first_name:  Min Jun 
+last_name: Kim
 
 # Username (this should match the folder name)
 authors:
-  - Hui Ze Hong
+  -  Min Jun Kim
 
 # Is this the primary user of the site?
 superuser: false
@@ -68,5 +68,5 @@ user_groups:
   - Master Candidates 
 ---
 
-Hui ze Hong
+
 

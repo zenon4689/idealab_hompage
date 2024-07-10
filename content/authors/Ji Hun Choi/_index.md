@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Hui Ze Hong
+title: Ji Hun Choi
 
 # Full name (for SEO)
-first_name: Hui Ze
-last_name: Hong
+first_name: Ji Hun
+last_name: Choi
 
 # Username (this should match the folder name)
 authors:
-  - Hui Ze Hong
+  - Ji Hun Choi
 
 # Is this the primary user of the site?
 superuser: false

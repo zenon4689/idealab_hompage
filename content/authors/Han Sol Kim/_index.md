@@ -1,14 +1,14 @@
 ---
 # Display name
-title: Hui Ze Hong
+title: Han Sol Kim
 
 # Full name (for SEO)
-first_name: Hui Ze
-last_name: Hong
+first_name: Han Sol
+last_name: Kim
 
 # Username (this should match the folder namtye)
 authors:
-  - Hui Ze Hong
+  - Han Sol Kim
 
 # Is this the primary user of the site?
 superuser: false
