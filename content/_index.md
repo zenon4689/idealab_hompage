@@ -12,13 +12,15 @@ sections:
       subtitle: 
       text: |
         <style>
-          .banner-image {
-            width: 150%;
-            height: auto;
-          }
           .banner-container {
             text-align: center;
             margin-bottom: 0px;
+          }
+          .banner-image {
+            width: 100vw;
+            height: auto;
+            margin-left: calc((100% - 100vw) / 2);
+            margin-right: calc((100% - 100vw) / 2);
           }
         </style>
 
