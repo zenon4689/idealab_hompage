@@ -6,28 +6,43 @@ type: landing
 
 sections:
 
-
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
+      title: 
+      subtitle: 
+      text: |
+        <style>
+          .centered-text {
+            text-align: center;
+          }
+          .image-grid {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+          }
+          .image-grid figure {
+            text-align: center;
+          }
+          .image-grid img {
+            width: 1000px; /* 원하는 크기로 설정 */
+            height: auto;
+          }
+          .image-grid figcaption {
+            margin-top: 10px;
+            font-size: 30px;
+            color: #666;
+          }
+
+        </style>
+
+        <div class="image-grid">
+          <figure>
+            <img src="semi3.jpg" alt="Image 1 Caption">
+          </figure>
+
+        </div>
     design:
       columns: '1'
-      background:
-        image: 
-          filename: semi3.png
-          filters:
-            brightness: 1
-          parallax: false
-          position: center
-          size: contain # cover 대신 contain으로 변경하여 이미지 크기를 조정
-          text_color_light: true
-      spacing:
-        padding: ['5px', '5px', '5px', '5px']
-      css_class: centered-image
-
-
 
 
 

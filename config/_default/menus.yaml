@@ -14,22 +14,18 @@ main:
   - name : people
     identifier : people
     weight : 30
-  - name : Advisor
-    parent : people
-    url : author/tae-hee-han  #드롭다운 메뉴 
-    weight : 10
   - name : PhDCandidates
     parent : people
     url : phdcandidates  #드롭다운 메뉴 
-    weight : 20
+    weight : 10
   - name : MSCandidates
     parent : people
     url : mastercandidates  #드롭다운 메뉴 
-    weight : 30
+    weight : 20
   - name : Alumni
     parent : people
     url : alumni  #드롭다운 메뉴 
-    weight : 40
+    weight : 30
 
   - name: Events
     url: event
