@@ -6,17 +6,33 @@ type: landing
 
 # 홈페이지 배너 부분
 sections:
-  - block: biography
+  - block: markdown
     content:
-      # Show a call-to-action button under your biography? (optional)
+      title: 
+      subtitle: 
+      text: |
+        <style>
+          body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+          }
+          .banner-container {
+            width: 100%;
+            overflow: hidden;
+          }
+          .banner-image {
+            width: 100%;
+            height: auto;
+          }
+        </style>
 
+        <div class="banner-container">
+          <img class="banner-image" src="semi3.png" alt="Banner Image">
+        </div>
     design:
-      banner:
-        # Upload your cover image to the `assets/media/` folder and reference it here
-        filename: kalen-emsley-Bkci_8qcdvQ-unsplash.jpg
-      biography:
-        # Customize the style of your biography text
-        style: 'text-align: justify; font-size: 0.8em;'
+      slide_height : 100px
+      columns: '1'
 
 
 ##########################################################
