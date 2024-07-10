@@ -13,7 +13,7 @@ sections:
         align: center
         background:
           image:
-            filename: semi3.jpg
+            filename: semi3.png
             filters:
               brightness: 0.7
           position: right
