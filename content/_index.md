@@ -5,44 +5,28 @@ date: 2022-10-24
 type: landing
 
 sections:
-
   - block: markdown
     content:
       title: 
       subtitle: 
       text: |
         <style>
-          .centered-text {
-            text-align: center;
-          }
-          .image-grid {
-            display: flex;
-            justify-content: center;
-            gap: 50px;
-          }
-          .image-grid figure {
-            text-align: center;
-          }
-          .image-grid img {
-            width: 1000px; /* 원하는 크기로 설정 */
+          .banner-image {
+            width: 100%;
             height: auto;
           }
-          .image-grid figcaption {
-            margin-top: 10px;
-            font-size: 30px;
-            color: #666;
+          .banner-container {
+            text-align: center;
+            margin-bottom: 20px;
           }
-
         </style>
 
-        <div class="image-grid">
-          <figure>
-            <img src="semi3.png" alt="Image 1 Caption">
-          </figure>
-
+        <div class="banner-container">
+          <img class="banner-image" src="semi3.png" alt="Banner Image">
         </div>
     design:
       columns: '1'
+
 
 
 
