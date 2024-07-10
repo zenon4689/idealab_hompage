@@ -7,25 +7,38 @@ type: landing
 sections:
 
 
-- block: markdown
-  content:
-    title:
-    subtitle: ''
-    text:
-  design:
-    columns: '1'
-    background:
-      image: 
-        filename: semi3.png
-        filters:
-          brightness: 1
-        parallax: false
-        position: center
-        size: contain
-        text_color_light: true
-    spacing:
-      padding: ['5px', '5px', '5px', '5px']
-    css_class: centered-image
+  - block: markdown
+    content:
+      title:
+      subtitle: ''
+      text:
+    design:
+      columns: '1'
+      background:
+        image: 
+          filename: semi3.png
+          filters:
+            brightness: 1
+          parallax: false
+          position: center
+          size: contain
+          text_color_light: true
+      spacing:
+        padding: ['5px', '5px', '5px', '5px']
+      css_class: fullscreen
+
+  <style>
+    .fullscreen {
+      display: flex;
+      justify-content: center; /* 이미지 가운데 정렬 */
+      align-items: center;
+      height: 100vh; /* 화면 높이에 맞춤 */
+      padding: 0;
+      background-size: contain; /* 이미지를 원래 크기로 조정 */
+      background-repeat: no-repeat; /* 이미지 반복 없음 */
+      background-position: center; /* 이미지 가운데 정렬 */
+    }
+  </style>
 
 
 
