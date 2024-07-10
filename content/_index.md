@@ -6,25 +6,23 @@ type: landing
 
 # 홈페이지 배너 부분
 sections:
-  - block: markdown
+  - block: hero
     content:
-      title:
-      subtitle: ''
-      text:
+      title: Build Your Landing Pages with Hugo Blox
+      text: 🧱 IDEAL  🧱
     design:
-      columns: '1'
+      spacing:
+        padding: [0, 0, 0, 0]
+        margin: [0, 0, 0, 0]
+      # For full-screen, add `min-h-screen` below
+      css_class: "dark"
       background:
-        image: 
+        color: "navy"
+        image:
+          # Add your image background to `assets/media/`.
           filename: semi3.png
           filters:
             brightness: 1
-          parallax: false
-          position: center
-          size: cover
-          text_color_light: true
-      spacing:
-        padding: ['0', '0', '0', '0']
-      css_class: fullscreen
 ##########################################################
 ################연구실 소개글##############################
 ##########################################################
