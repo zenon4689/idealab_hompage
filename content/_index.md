@@ -117,105 +117,129 @@ sections:
       subtitle: 
       text: |
         <head>
-          <meta charset="UTF-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Banner Example</title>
-          <style>
-              body {
-                  font-family: Arial, sans-serif;
-                  background-color: #f7f7f7;
-              }
-              .banner {
-                  display: flex;
-                  flex-direction: column;
-                  width: 1200px; /* 배너의 너비를 늘립니다 */
-                  margin: 20px auto;
-              }
-              .banner-item {
-                  background-color: #f0f0f0;
-                  margin: 5px 0; /* 간격을 넓힙니다 */
-                  padding: 10px; /* 패딩을 늘립니다 */
-                  border-radius: 10px;
-                  transition: transform 0.3s;
-                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* 그림자 추가 */
-              }
-              .banner-item:hover {
-                  transform: scale(1.05);
-              }
-          </style>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Banner Example</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                    background-color: #f7f7f7;
+                }
+                .container {
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                }
+                .timeline {
+                    display: flex;
+                    flex-direction: column;
+                    margin-right: 20px;
+                }
+                .timeline-item {
+                    padding: 10px;
+                    font-weight: bold;
+                    text-align: right;
+                    border-right: 2px solid #ccc;
+                    margin-right: 10px;
+                }
+                .banner {
+                    display: flex;
+                    flex-direction: column;
+                    width: 600px;
+                }
+                .banner-item {
+                    background-color: #f0f0f0;
+                    margin: 20px 0;
+                    padding: 30px;
+                    border-radius: 10px;
+                    transition: transform 0.3s;
+                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                }
+                .banner-item:hover {
+                    transform: scale(1.05);
+                }
+            </style>
         </head>
         <body>
-          <div class="banner">
-              <div class="banner-item">
-                  <p>(2024-04) <strong>Yong Wook Kim</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2024-03) <strong>Ho Jung Yoo</strong>'s paper is selected as the featured article in IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2024-02) <strong>Won Hyeok Kim</strong>'s paper is accepted by the ICAIIC.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2024-02) Welcome! <strong>Woo Hyun Kim, Sung Ryong Yoo, and Min Jun Kim</strong> have joined our group as graduate students.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2023-12) <strong>Ho Jung Yoo</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2023-11) <strong>Ju Yeon Kang</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2023-08) Welcome! <strong>Hyung Jin Kim and Ji Hun Choi</strong> have joined our group as graduate students.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2023-02) Welcome! <strong>Han Sol Kim and Won Hyeok Kim</strong> have joined our group as graduate students.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2023-01) <strong>Ju Yeon Kang</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2023-01) <strong>Jae Eun Shim</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-12) <strong>Hyun Jo Lim</strong>'s paper is accepted by the MDPI Electronics.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-10) <strong>Young Sik Lee</strong>'s paper is accepted by the IEEE Transactions on Parallel and Distributed Systems (TPDS).</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-09) <strong>Prof. Tae Hee Han</strong> has been elevated to the senior member of the IEEE.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-08) Welcome! <strong>Suk Bong Kang and Hui Ze Hong</strong> have joined our group as graduate students.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-08) <strong>Sang Min Hyun</strong>'s paper is accepted by the MDPI Electronics.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-07) <strong>Min Gu Kang</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-05) <strong>Prof. Tae Hee Han</strong> is awarded the SKKU Teaching Award.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2022-02) Welcome! <strong>Chang Ho Ryu and Ho Jung Yoo</strong> have joined our group as graduate students.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2021-12) <strong>Min Chae Yang</strong> is accepted by the Samsung Electronics Memory business.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2021-12) <strong>Min Chae Yang</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2021-11) <strong>Prof. Tae Hee Han</strong> serves as the Program Manager in Computer System & Processing, National Research Foundation of Korea.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2021-08) <strong>Yong Wook Kim</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-              <div class="banner-item">
-                  <p>(2021-05) <strong>Young Sik Lee</strong>'s paper is accepted by the IEEE Access.</p>
-              </div>
-          </div>
+            <div class="container">
+                <div class="timeline">
+                    <div class="timeline-item">2024</div>
+                    <div class="timeline-item">2023</div>
+                    <div class="timeline-item">2022</div>
+                    <div class="timeline-item">2021</div>
+                </div>
+                <div class="banner">
+                    <div class="banner-item">
+                        <p>(2024-04) <strong>Yong Wook Kim</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2024-03) <strong>Ho Jung Yoo</strong>'s paper is selected as the featured article in IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2024-02) <strong>Won Hyeok Kim</strong>'s paper is accepted by the ICAIIC.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2024-02) Welcome! <strong>Woo Hyun Kim, Sung Ryong Yoo, and Min Jun Kim</strong> have joined our group as graduate students.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2023-12) <strong>Ho Jung Yoo</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2023-11) <strong>Ju Yeon Kang</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2023-08) Welcome! <strong>Hyung Jin Kim and Ji Hun Choi</strong> have joined our group as graduate students.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2023-02) Welcome! <strong>Han Sol Kim and Won Hyeok Kim</strong> have joined our group as graduate students.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2023-01) <strong>Ju Yeon Kang</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2023-01) <strong>Jae Eun Shim</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-12) <strong>Hyun Jo Lim</strong>'s paper is accepted by the MDPI Electronics.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-10) <strong>Young Sik Lee</strong>'s paper is accepted by the IEEE Transactions on Parallel and Distributed Systems (TPDS).</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-09) <strong>Prof. Tae Hee Han</strong> has been elevated to the senior member of the IEEE.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-08) Welcome! <strong>Suk Bong Kang and Hui Ze Hong</strong> have joined our group as graduate students.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-08) <strong>Sang Min Hyun</strong>'s paper is accepted by the MDPI Electronics.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-07) <strong>Min Gu Kang</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-05) <strong>Prof. Tae Hee Han</strong> is awarded the SKKU Teaching Award.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2022-02) Welcome! <strong>Chang Ho Ryu and Ho Jung Yoo</strong> have joined our group as graduate students.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2021-12) <strong>Min Chae Yang</strong> is accepted by the Samsung Electronics Memory business.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2021-12) <strong>Min Chae Yang</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2021-11) <strong>Prof. Tae Hee Han</strong> serves as the Program Manager in Computer System & Processing, National Research Foundation of Korea.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2021-08) <strong>Yong Wook Kim</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                    <div class="banner-item">
+                        <p>(2021-05) <strong>Young Sik Lee</strong>'s paper is accepted by the IEEE Access.</p>
+                    </div>
+                </div>
+            </div>
         </body>
     design:
       columns: '1'
