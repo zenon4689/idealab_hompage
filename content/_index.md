@@ -31,6 +31,7 @@ sections:
           <img class="banner-image" src="semi3.png" alt="Banner Image">
         </div>
     design:
+      slide_height : 100px
       columns: '1'
 ##########################################################
 ################연구실 소개글##############################
