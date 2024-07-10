@@ -21,26 +21,25 @@ sections:
           brightness: 1
         parallax: false
         position: center
-        size: contain # cover 대신 contain으로 변경하여 이미지 크기를 조정
+        size: contain
         text_color_light: true
     spacing:
       padding: ['5px', '5px', '5px', '5px']
     css_class: fullscreen
-    custom_css: |
-      .fullscreen {
-        display: flex;
-        justify-content: center; /* 이미지 가운데 정렬 */
-        align-items: center;
-        height: 100vh; /* 화면 높이에 맞춤 */
-        padding: 0;
-        background-size: contain; /* 이미지를 원래 크기로 조정 */
-        background-repeat: no-repeat; /* 이미지 반복 없음 */
-      }
-      .fullscreen::before {
-        content: '';
-        display: block;
-        padding-top: 56.25%; /* 화면 비율 유지 (16:9) */
-      }
+
+<style>
+  .fullscreen {
+    display: flex;
+    justify-content: center; /* 이미지 가운데 정렬 */
+    align-items: center;
+    height: 100vh; /* 화면 높이에 맞춤 */
+    padding: 0;
+    background-size: contain; /* 이미지를 원래 크기로 조정 */
+    background-repeat: no-repeat; /* 이미지 반복 없음 */
+    background-position: center; /* 이미지 가운데 정렬 */
+  }
+</style>
+
 
 
 
