@@ -25,7 +25,7 @@ sections:
                     margin-bottom: 20px;
                 }
                 .profile-item img {
-                    width: 100%;
+                    width: 50%;
                     height: auto;
                 }
                 .profile-details {
