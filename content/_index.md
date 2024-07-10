@@ -12,15 +12,18 @@ sections:
       subtitle: 
       text: |
         <style>
+          body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+          }
           .banner-container {
-            text-align: center;
-            margin-bottom: 0px;
+            width: 100%;
+            overflow: hidden;
           }
           .banner-image {
-            width: 100vw;
+            width: 100%;
             height: auto;
-            margin-left: calc((100% - 100vw) / 2);
-            margin-right: calc((100% - 100vw) / 2);
           }
         </style>
 
