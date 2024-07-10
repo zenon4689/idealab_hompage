@@ -67,16 +67,6 @@ email: ''
 user_groups:
   - Advisor
 
-
-- block: markdown
-  content:
-    title: Welcome to INTELLIGENT DATA-CENTRIC EMERGING ARCHITECTURE LAB(IDEA.L) at SKKU.
-    subtitle: 
-    text: |
-              test
-  design:
-    columns: '1'
-
 ---
 
 Tae Hee Han (한태희), Ph.D., Professor, Sungkyunkwan University<br>
