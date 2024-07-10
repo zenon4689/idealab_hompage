@@ -25,7 +25,7 @@ sections:
                     margin-bottom: 20px;
                 }
                 .profile-item img {
-                    width: 50%;
+                    width: 40%;
                     height: auto;
                 }
                 .profile-details {
@@ -33,6 +33,9 @@ sections:
                 }
                 .profile-details h3 {
                     margin: 0;
+                }
+                .profile-details p {
+                    margin: 5px 0;
                 }
             </style>
             <title>Profile Grid</title>
