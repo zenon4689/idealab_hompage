@@ -19,10 +19,10 @@ sections:
           position: right
           color: '#666'
         link:
-          icon: graduation-cap
-          icon_pack: fas
-          text: Join Us
-          url: ../contact/
+          icon: 
+          icon_pack: 
+          text: Go to Homepage
+          url: ../
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: ''
