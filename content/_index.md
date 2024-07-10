@@ -112,7 +112,52 @@ sections:
     design:
       columns: '1'
 
-
+  - block: markdown
+    content:
+      title: 
+      subtitle: 
+      text: |
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Banner Example</title>
+            <style>
+                body {
+                    font-family: Arial, sans-serif;
+                }
+                .banner {
+                    display: flex;
+                    flex-direction: column;
+                    width: 300px;
+                    margin: 20px auto;
+                }
+                .banner-item {
+                    background-color: #f0f0f0;
+                    margin: 10px 0;
+                    padding: 20px;
+                    border-radius: 10px;
+                    transition: transform 0.3s;
+                }
+                .banner-item:hover {
+                    transform: scale(1.05);
+                }
+            </style>
+        </head>
+        <body>
+            <div class="banner">
+                <div class="banner-item">
+                    <p>(2024-04) <strong>Yong Wook Kim</strong>'s paper is accepted by the IEEE Access.</p>
+                </div>
+                <div class="banner-item">
+                    <p>(2024-03) <strong>Ho Jung Yoo</strong>'s paper is selected as the featured article in IEEE Access.</p>
+                </div>
+                <div class="banner-item">
+                    <p>(2024-02) <strong>Won Hyeok Kim</strong>'s paper is accepted by the ICAIIC.</p>
+                </div>
+            </div>
+        </body>
+    design:
+      columns: '1'
       
   
   - block: collection
