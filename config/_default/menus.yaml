@@ -6,14 +6,14 @@
 main:
   - name: Professor
     url: author/tae-hee-han
-    weight: 20
+    weight: 10
   - name: News
     url: post
-    weight: 30
+    weight: 20
 
   - name : people
     identifier : people
-    weight : 40
+    weight : 30
   - name : Advisor
     parent : people
     url : author/tae-hee-han  #드롭다운 메뉴 
@@ -33,10 +33,10 @@ main:
 
   - name: Events
     url: event
-    weight: 50
+    weight: 40
   - name: Publications
     url: publication
-    weight: 60
+    weight: 50
   - name: Contact
     url: contact
-    weight: 70
+    weight: 60
